@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"devops_sf-cicd_sf-srinivas_sf": {
+		"basepath": "/v1/srinivas_sf",
+		"product":"srinivas_sfProduct",
+		"app":"srinivas_sfApp",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}

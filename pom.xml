@@ -1,0 +1,22 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.sidgs.apigee</groupId>
+    <artifactId>devops_sf-cicd_sf-srinivas_sf-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>devops_sf-cicd_sf-srinivas_sf-parent</name>
+
+    <parent>
+        <groupId>com.sidgs.api.commons</groupId>
+        <artifactId>sidgs-parent-pom</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <teamName>cicd_sf</teamName>
+    </properties>
+
+	<modules>
+		<module>edge</module>
+	</modules>
+</project>

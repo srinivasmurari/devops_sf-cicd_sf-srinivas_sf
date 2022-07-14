@@ -1,0 +1,29 @@
+[
+    {
+        "name": "srinivas_sfProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "srinivas_sfProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "srinivas_sfProduct",
+        "displayName": "srinivas_sfProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "devops_sf-cicd_sf-srinivas_sf"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]
